@@ -13,4 +13,11 @@ A simple idea to do this is to detect the peaks of the SiF<sub>4</sub> radicals'
 * Non-linear fit between the ion signal and the laser power. A simple model for this is a power law with a laser saturation power. Something like this.
 $N_{\text{ion}} = \frac{N_{0}}{1+(Is/I)^{b}}$
 
-*  
+* Develop a model that includes the geometric description of laser shape and the extraction zone.
+
+Summarizing the different files:
+
+* auxiliar.py &rarr; file that contains the functions to use in the main file.
+* mpi_analysis.py &rarr; file with the whole analysis.
+
+  
